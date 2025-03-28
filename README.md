@@ -29,4 +29,5 @@ The reference genome file MUST HAVE .fasta suffix (change it to .fasta if yours 
 The GFF file MUST HAVE .gff suffix
 
 It is required to pull all the apptainer images as sif files and link them to the directory where you save them in the config file nextflow.config
+
 Apptainer images vailable at: https://github.com/RepAdapt/singularity/blob/main/RepAdaptSingularity.md
