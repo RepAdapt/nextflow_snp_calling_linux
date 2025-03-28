@@ -15,7 +15,7 @@ To run the workflow:
 
 --reads (default CWD: ./*{1,2}.fastq.gz) ### this can be changed, use it to match your raw fastq reads path and names patterns (ie. fq.gz)
 
---outdir (default CWD: ./output/) ### this can be changed to any directory
+--outdir (default: ./output/) ### this can be changed to any directory
 
 --ref_genome (No default, give full path)
 
