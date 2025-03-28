@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-params.reads = "/data/home/gabriele/Misc/nextflow/nextflow_docker/reads/test/*{1,2}.fastq.gz"
+params.reads = "./*{1,2}.fastq.gz"
 params.outdir = "./output/"
 params.ref_genome = ""
 params.gff_file = ""
