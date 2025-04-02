@@ -30,6 +30,8 @@ It is required to pull all the apptainer images as sif files and link them to th
 Apptainer images vailable at: https://github.com/RepAdapt/singularity/blob/main/RepAdaptSingularity.md
 
 
+This pipeline assumes that each sample has a single pair of paired end reads.
+
 
 # Comments
 
