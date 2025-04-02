@@ -11,7 +11,7 @@ To run the workflow:
 <pre>nextflow run main.nf -config nextflow.config --ref_genome /path/to/reference_genome.fasta --gff_file /path/to/genes.gff</pre>
 
 
-<b>Available options:</b>
+# Options
 
 --reads (default CWD: ./*{1,2}.fastq.gz) ### this can be changed, use it to match your raw fastq reads path and names patterns (ie. fq.gz)
 
@@ -22,7 +22,7 @@ To run the workflow:
 --gff_file (No default, give full path)
 
 
-<b>IMPORTANT</b>
+# Important
 
 
 It is required to pull all the apptainer images as sif files and link them to the directory where you save them in the config file nextflow.config
