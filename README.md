@@ -25,7 +25,7 @@ To run the workflow:
 # Important
 
 
-It is required to pull all the apptainer images as sif files and link them to the directory where you save them in the config file nextflow.config
+It is required to pull all the singularity/apptainer images as sif files and link them to the directory where you save them in the config file nextflow.config
 
 Singularity/Apptainer images vailable at: https://github.com/RepAdapt/singularity/blob/main/RepAdaptSingularity.imagelocations.md
 
