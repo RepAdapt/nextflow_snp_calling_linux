@@ -27,7 +27,7 @@ To run the workflow:
 
 It is required to pull all the apptainer images as sif files and link them to the directory where you save them in the config file nextflow.config
 
-Apptainer images vailable at: https://github.com/RepAdapt/singularity/blob/main/RepAdaptSingularity.imagelocations.md
+Singularity/Apptainer images vailable at: https://github.com/RepAdapt/singularity/blob/main/RepAdaptSingularity.imagelocations.md
 
 
 This pipeline assumes that each sample has a single pair of paired end reads.
