@@ -4,7 +4,7 @@ Nextflow pipeline for Linux systems without job schedulers
 
 
 This pipeline takes paired-end fastq reads, a reference genome and a gff file and will produce:
-- a minimally filtered vcf (removing SNPs where all indidivuals are homozyogous ALT and any SNP with MQ < 30).
+- a minimally filtered VCF (removing SNPs where all indidivuals are homozyogous ALT and any SNP with MQ < 30).
 - 3 depth statistics files per dataset: samples genes depth, samples windows depth and samples whole-genome depth.
 
 To run the workflow:
