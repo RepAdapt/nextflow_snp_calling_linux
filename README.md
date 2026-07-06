@@ -1,6 +1,8 @@
 # nextflow_snp_calling_linux
 Nextflow pipeline for Linux systems without job schedulers
 
+# Nextflow Version
+Please use Nextflow 25.10.2 or earlier, as later versions introduce slight changes to how processes are specified.
 
 
 This pipeline takes paired-end fastq reads, a reference genome and a gff file and will produce:
