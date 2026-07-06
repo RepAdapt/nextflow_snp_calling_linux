@@ -36,7 +36,7 @@ Singularity/Apptainer images vailable at: https://github.com/RepAdapt/singularit
 
 
 # Depth of coverage partial pipeline
-It is possible to run the coverage statistics component of the pipeline as a standalone step. To do so, you must first generate the final realigned BAM files, which are assumed to be located in ./output.
+It is possible to run the coverage statistics component of the pipeline as a standalone step: this is not necessary if the full pipeline was run, as this step is included. To run this partial pipeline aimed at generating depth statistics, you must have the final realigned BAM files, which are assumed to be located in ./output.
 This pipeline is executed using the coverage_stats_main.nf script, which you can edit to specify the exact location of your realigned .bam files.
 
 To run the coverage stats workflow:
